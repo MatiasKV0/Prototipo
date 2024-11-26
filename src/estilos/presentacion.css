@@ -1,0 +1,46 @@
+
+.Info h1{
+    font-size: 4em;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+  }
+  
+.Info h2{
+    font-size: 4em;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+.Info{
+    text-align: center;
+    align-content: center;
+    height: 90vh;
+  }
+  
+.Fondo{
+    background-color: #1b1b1b;
+  }
+
+.divredes{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.redes{
+  transition: 0.3s ease-in-out;
+}
+
+.redes:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.redes h4{
+  color: white;
+  border-radius: 15px;
+  background-color: #0070c0;
+  padding: 10px 40px;
+  font-weight: 400;
+}

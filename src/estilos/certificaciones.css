@@ -1,0 +1,45 @@
+#cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#Certificaciones{
+    height: 80vh;
+    align-content: center;
+}
+
+.curso {
+    border: rgba(83, 80, 80, 0.596) solid 2px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: #222222;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.curso:hover {
+    background-color: #0070c098;
+    transition: 0.3s ease-in-out;
+}
+.curso p {
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.curso a {
+    text-decoration: none;
+    color: rgba(212, 212, 212, 0.76);
+}
+
+.curso a:hover {
+    color: rgb(230, 230, 230);
+}
+
+@media only screen and (max-width: 800px) {
+    #cursos {
+        display: flex;
+        flex-direction: column;
+    }
+}
