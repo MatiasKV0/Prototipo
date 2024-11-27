@@ -1,43 +1,37 @@
+.Presentacion{
+  background-color: #1b1b1b;
+  min-height: 10vh;
+  max-height: 100vh;
+}
 
-.Info h1{
-    font-size: 4em;
-    margin: 0;
-    font-weight: 500;
-    color: white;
-  }
-  
-.Info h2{
-    font-size: 4em;
-    margin: 0;
-    font-weight: 500;
-  }
-  
-.Info{
-    text-align: center;
-    align-content: center;
-    height: 90vh;
-  }
-  
-.Fondo{
-    background-color: #1b1b1b;
-  }
+.Presentacion__Info{
+  text-align: center;
+  align-content: center;
+  height: 90vh;
+}
 
-.divredes{
+.Presentacion__Info h2{
+  font-size: 4rem;
+  font-size: 700;
+  margin: 0;
+}
+
+.Presentacion__Redes{
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.redes{
+.Presentacion__Redes-Link{
   transition: 0.3s ease-in-out;
 }
 
-.redes:hover{
+.Presentacion__Redes-Link:hover{
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
 
-.redes h4{
+.Presentacion__Redes-Link h4{
   color: white;
   border-radius: 15px;
   background-color: #0070c0;

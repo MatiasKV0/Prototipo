@@ -1,21 +1,5 @@
-.seccion {
-    width: 80%;
-    margin: 0 auto;
-}
 
-.seccion p{
-    color: white;
-    font-size: 20px;
-}
-
-.seccion h2{
-    font-size: 30px;
-    font-weight: 700;
-    color: #0070c0;
-    text-align: center;
-}
-
-#conHab {
+.habilidades__contenedor {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -23,12 +7,15 @@
     margin: 20px 0;
 }
 
-#sobremi{
-    margin: 0;
-    text-align: justify;
+@media only screen and (max-width: 800px) {
+    .habilidades__contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 13px;
+    }
 }
 
-.habilidades {
+.habilidades__tipo {
     font-size: 15px;
     font-weight: 500;
     padding: 10px 20px;
@@ -39,16 +26,10 @@
     transition: transform 0.3s ease-in-out, background-color 1s ease-in-out;
 }
 
-.habilidades:hover {
+.habilidades__tipo:hover {
     transform: scale(1.05);
     background-color: #0070c098;
     transition: 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 800px) {
-    #conHab {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        font-size: 13px;
-    }
-}
+

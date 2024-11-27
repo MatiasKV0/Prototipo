@@ -7,28 +7,28 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Contacto() {
   return (
-    <div id='contacto'>
+    <article id='contacto'>
       <h2>Contacto</h2>
       <section className="seccion">
-          <div id='texto'>
+          <div className='contacto__texto'>
             <p>Si tienes un proyecto o idea en la que crees que podría aportar valor, te invito a ponerte en contacto. Estoy disponible para explorar cómo podemos trabajar juntos y transformar tu visión en realidad. No dudes en conectar conmigo a través de las redes sociales.</p>
           </div>
-          <div id="redes">
-            <div className='iconos'>
+          <div className="contacto__redes">
+            <div className='contacto__iconos'>
               <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/>
               <a href="mailto:matiasnicolas.villan@gmail.com?Subject=Consulta%20de%20Servicio">Mail</a>
             </div>
-            <div className='iconos'>
+            <div className='contacto__iconos'>
               <FontAwesomeIcon icon={faLinkedin} className='fa-icon'/>
               <a href="https://www.linkedin.com/in/matias-nicolas-villan/">Linkedin</a>
             </div>
-            <div className='iconos'>
+            <div className='contacto__iconos'>
               <FontAwesomeIcon icon={faGithub} className='fa-icon'/>
               <a href="https://github.com/MatiasKV0">GitHub</a>
             </div>
           </div>
       </section>
-    </div>
+    </article>
   )
 }
 export default Contacto

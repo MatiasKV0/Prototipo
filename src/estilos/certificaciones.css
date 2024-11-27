@@ -1,16 +1,11 @@
-#cursos {
+.certificaciones__contenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
 
-#Certificaciones{
-    height: 80vh;
-    align-content: center;
-}
-
-.curso {
+.certificaciones__curso {
     border: rgba(83, 80, 80, 0.596) solid 2px;
     border-radius: 20px;
     padding: 20px 30px;
@@ -18,27 +13,27 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.curso:hover {
+.certificaciones__curso:hover {
     background-color: #0070c098;
     transition: 0.3s ease-in-out;
 }
-.curso p {
+.certificaciones__curso p {
     padding: 0;
     padding-bottom: 15px;
     margin: 0;
 }
 
-.curso a {
+.certificaciones__curso a {
     text-decoration: none;
     color: rgba(212, 212, 212, 0.76);
 }
 
-.curso a:hover {
+.certificaciones__curso a:hover {
     color: rgb(230, 230, 230);
 }
 
 @media only screen and (max-width: 800px) {
-    #cursos {
+    .certificaciones__contenedor{
         display: flex;
         flex-direction: column;
     }

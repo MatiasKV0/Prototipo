@@ -1,16 +1,23 @@
-#contacto{
-    height: 80vh;
-    text-align: center;
-}
-
-#redes {
+#contacto .seccion {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    align-items: end;
+    gap: 50px;
 }
 
-.iconos{
+.contacto__redes {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contacto__texto {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.contacto__iconos{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -21,7 +28,7 @@
     flex: 1;
 }
 
-.iconos a{
+.contacto__iconos a{
     text-decoration: none;
     color: white;
     background-color: #222222;
@@ -29,24 +36,17 @@
     border-radius: 20px;
     font-weight: 500;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%; 
     box-sizing: border-box; 
 }
 
-.iconos .fa-icon {
+.contacto__iconos .fa-icon {
     color: #ffffff;
     font-size: 70px;
 }
 
-.iconos a:hover{
-    color: #000000;
-    background-color: #0070c0;
+.contacto__iconos a:hover {
+    background-color: #0070c098;
 }
 
-#texto p{
-    text-align: justify;
-    font-weight: 300;
-    margin: 50px 0;
-}

@@ -9,13 +9,17 @@ export default function App() {
   return (
     <div>
       <nav>
+        <ul>
+          <li><a href="#presentacion">Presentacion</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#certificaciones">Certificaciones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
       </nav>
-      <div>
-        <Presentacion />
-        <Habilidades />
-        <Certificaciones />
-        <Contacto />
-      </div>
+      <Presentacion />
+      <Habilidades />
+      <Certificaciones />
+      <Contacto />
     </div>
   );
 }
