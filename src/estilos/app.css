@@ -46,6 +46,18 @@ nav{
   z-index: 1;
 }
 
+nav div {
+  display: flex;
+  justify-content: center;
+}
+
+nav .menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
 nav li{
   display: inline;
 }
@@ -98,6 +110,33 @@ article{
   }
   100% {
     color: #FF6347; /* Tomato */
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav .menu-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  nav a {
+    padding: 10px 0;
   }
 }
 

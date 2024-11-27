@@ -1,6 +1,11 @@
+#contacto {
+    margin-top: 4em;
+}
+
 #contacto .seccion {
     display: flex;
     gap: 50px;
+    flex-direction: column;
 }
 
 .contacto__redes {
@@ -17,7 +22,7 @@
     font-weight: 300;
 }
 
-.contacto__iconos{
+.contacto__iconos {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -28,7 +33,7 @@
     flex: 1;
 }
 
-.contacto__iconos a{
+.contacto__iconos a {
     text-decoration: none;
     color: white;
     background-color: #222222;
@@ -48,5 +53,11 @@
 
 .contacto__iconos a:hover {
     background-color: #0070c098;
+}
+
+@media (min-width: 768px) {
+    #contacto .seccion {
+        flex-direction: row;
+    }
 }
 
