@@ -15,6 +15,104 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.switch{
+  background-color: #343d5b;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+
+  &::after {
+      content: "";
+      display: block;
+      width: 23px;
+      height: 22px;
+      position: absolute;
+      background: #f1f1f1;
+      top: 0;
+      left: 0;
+      right: unset;
+      border-radius: 100px;
+      transition: .3s ease all;
+      box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  }
+  &.active{
+      background: orange;
+      color: black;
+      &::after{
+          right: 0;
+          left: unset;
+      }
+  }
+
+  span {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      display: block;
+      background: none;
+      color: white;
+  }
+}
+
+body.light-mode .Presentacion__Icon .fa-icon, body.light-mode .botton .fa-icon {
+  color: #000000;
+}
+
+body.light-mode, body.light-mode article {
+  background-color: #e6e6e6;
+}
+
+body.light-mode .Presentacion{
+  background-color: #f1f1f1;
+}
+
+body.light-mode header{
+  background-color:#f1f1f1c9 ;
+}
+
+body.light-mode img{
+  filter: invert(90);
+}
+
+body.light-mode img:hover{
+  filter: drop-shadow(0 0 5px rgba(15, 15, 15, 0.5));
+}
+
+body.light-mode h1, 
+body.light-mode h2, 
+body.light-mode h3,
+body.light-mode a {
+  color: #000000;
+}
+
+body.light-mode a:hover{
+  color: #f1356d;
+}
+
+body.light-mode .habilidades__tipo {
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+body.light-mode .habilidades__tipo:hover {
+  background-color: #cc002298;
+}
+
+body.light-mode .seccion p {
+  color: #333333;
+}
+
+body.light-mode .certificaciones__curso {
+  background-color: #f1f1f1;
+}
+
+body.light-mode footer a{
+  color: #757575;
+}
+
 h1 {
   font-size: 4em;
   margin: 0;
@@ -51,19 +149,19 @@ article {
 
 @keyframes colorChange {
   0% {
-    color: #FF6347; /* Tomato */
+    color: #FF6347; 
   }
   25% {
-    color: #fdea3c; /* Light Salmon */
+    color: #fdea3c; 
   }
   50% {
-    color: #FFD700; /* Gold */
+    color: #FFD700; 
   }
   75% {
-    color: #ff5416; /* Orange Red */
+    color: #ff5416;
   }
   100% {
-    color: #FF6347; /* Tomato */
+    color: #FF6347; 
   }
 }
 
