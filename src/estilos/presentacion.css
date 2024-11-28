@@ -1,13 +1,12 @@
 .Presentacion{
   background-color: #1b1b1b;
-  min-height: 10vh;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .Presentacion__Info{
   text-align: center;
   align-content: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .Presentacion__Info h2{
@@ -61,5 +60,13 @@
   }
   60% {
     transform: translateX(-50%) translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .Presentacion__Info h2{
+    font-size: 30px;
+    font-size: 700;
+    margin: 0;
   }
 }

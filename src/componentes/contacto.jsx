@@ -7,28 +7,26 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Contacto() {
   return (
-    <article id='contacto'>
-      <h2>Contacto</h2>
+<footer className="footer">
       <section className="seccion">
-          <div className='contacto__texto'>
-            <p>Si tienes un proyecto o idea en la que crees que podría aportar valor, te invito a ponerte en contacto. Estoy disponible para explorar cómo podemos trabajar juntos y transformar tu visión en realidad. No dudes en conectar conmigo a través de las redes sociales.</p>
+        <div className="contacto">
+          <div className="contacto-info">
+          <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/> 
+            <h4><a className="contacto-link" href="mailto:matiasnicolas.villan@gmail.com?Subject=Consulta%20de%20Servicio">Contacto</a>
+            </h4>
           </div>
-          <div className="contacto__redes">
-            <div className='contacto__iconos'>
-              <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/>
-              <a href="mailto:matiasnicolas.villan@gmail.com?Subject=Consulta%20de%20Servicio">Mail</a>
-            </div>
-            <div className='contacto__iconos'>
-              <FontAwesomeIcon icon={faLinkedin} className='fa-icon'/>
-              <a href="https://www.linkedin.com/in/matias-nicolas-villan/">Linkedin</a>
-            </div>
-            <div className='contacto__iconos'>
-              <FontAwesomeIcon icon={faGithub} className='fa-icon'/>
-              <a href="https://github.com/MatiasKV0">GitHub</a>
-            </div>
-          </div>
+          <h4>Developed by Matias Villan</h4>
+        </div>
+        <div id="redes" className="redes">
+          <a href="https://www.linkedin.com/in/matias-nicolas-villan/">
+          <FontAwesomeIcon icon={ faLinkedin } className='fa-icon'/>
+          </a>
+          <a href="https://github.com/MatiasKV0">
+          <FontAwesomeIcon icon={faGithub} className='fa-icon'/>
+          </a>
+        </div>
       </section>
-    </article>
+    </footer>
   )
 }
 export default Contacto

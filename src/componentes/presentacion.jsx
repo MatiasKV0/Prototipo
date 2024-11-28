@@ -22,7 +22,7 @@ function Presentacion() {
       <div className="Presentacion__Icon">
         <FontAwesomeIcon icon={faAnglesDown} className='fa-icon'/>
       </div>
-    </div>
+  </div>
   )
 }
 
