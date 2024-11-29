@@ -20,19 +20,19 @@ function Certificaciones() {
             <div className="certificaciones__contenedor">
                 <div className="certificaciones__curso">
                     <p>Loremipsum dolorsit</p>
-                    <a href="">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
+                    <a href="#inicio">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
                 </div>
                 <div className="certificaciones__curso">
                     <p>Loremipsum dolorsit</p>
-                    <a href="">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
+                    <a href="#inicio">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
                 </div>
                 <div className="certificaciones__curso">
                     <p>Loremipsum dolorsit</p>
-                    <a href="">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
+                    <a href="#inicio">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
                 </div>
                 <div className="certificaciones__curso">
                     <p>Loremipsum dolorsit</p>
-                    <a href="">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
+                    <a href="#inicio">Certificado de Aprobacion de "Loremipsum dolorsit"</a>
                 </div>
             </div>
         </section>
