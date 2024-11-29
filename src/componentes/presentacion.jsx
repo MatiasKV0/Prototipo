@@ -11,10 +11,10 @@ function Presentacion() {
         <h2>I`m a {""}<Texto palabras={["Computer Engineer","Web Developer","Industrial Designer"]} /></h2> 
         <h1>Matias Villan</h1>
           <div className='Presentacion__Redes'>
-                <a className="Presentacion__Redes-Link" style={{ textDecoration: 'none' }} href="...">
+                <a className="Presentacion__Redes-Link" style={{ textDecoration: 'none' }} href="">
                     <h4>Linkedin</h4>
                 </a>
-                <a className="Presentacion__Redes-Link" style={{ textDecoration: 'none' }} href="...">
+                <a className="Presentacion__Redes-Link" style={{ textDecoration: 'none' }} href="">
                     <h4 style={{padding:"10px 45px"}}> GitHub </h4>
                 </a>
           </div>
