@@ -1,9 +1,9 @@
 {
-  "name": "portafolio",
+  "name": "prototipo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MatiasNV0.github.io/prototipo",
+  "homepage": "https://matiaskv0.github.io/Prototipo/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
