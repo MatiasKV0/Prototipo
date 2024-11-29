@@ -6,7 +6,7 @@ function Habilidades() {
     <article id="habilidades">
         <section className="seccion">
             <h2>Sobre Mi</h2>
-            <p>Soy una persona apasionada por la tecnología, siempre en busca de desafíos que me permitan expandir mis conocimientos y desarrollar nuevas habilidades. Me motiva la idea de superar obstáculos, ya que cada uno representa una oportunidad para aprender y crecer tanto personal como profesionalmente. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic corrupti quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus doloribus incidunt dignissimos tenetur id perspiciatis repellendus ratione porro explicabo necessitatibus error quam temporibus distinctio, ex aspernatur officia commodi harum ipsa.</p>
             <h2>Habilidades</h2>
             <div className="habilidades__contenedor">
                 <div className="habilidades__tipo">

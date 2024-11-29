@@ -12,16 +12,16 @@ function Contacto() {
         <div className="contacto">
           <div className="contacto-info">
           <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/> 
-            <h4><a className="contacto-link" href="mailto:matiasnicolas.villan@gmail.com?Subject=Consulta%20de%20Servicio">Contacto</a>
+            <h4><a className="contacto-link" href="...">Contacto</a>
             </h4>
           </div>
           <h4>Developed by Matias Villan</h4>
         </div>
         <div id="redes" className="redes">
-          <a href="https://www.linkedin.com/in/matias-nicolas-villan/">
+          <a href="...">
           <FontAwesomeIcon icon={ faLinkedin } className='fa-icon'/>
           </a>
-          <a href="https://github.com/MatiasKV0">
+          <a href="...">
           <FontAwesomeIcon icon={faGithub} className='fa-icon'/>
           </a>
         </div>
