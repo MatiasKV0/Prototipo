@@ -22,7 +22,7 @@ export default function Navegacion() {
   return (
     <header className="header">
       <div id="logo">
-        <img src={Logo} alt="Logo"/>
+        <img id="M-logo" src={Logo} alt="Logo"/>
       </div>
       <div className="botton" onClick={toggleMenu}>
         <FontAwesomeIcon icon={faBars} className='fa-icon'/>
@@ -30,6 +30,7 @@ export default function Navegacion() {
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="#inicio">Presentación</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#certificaciones">Certificaciones</a></li>
           <li>

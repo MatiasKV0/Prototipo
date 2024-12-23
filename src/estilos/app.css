@@ -73,12 +73,8 @@ body.light-mode header{
   background-color:#f1f1f1c9 ;
 }
 
-body.light-mode img{
+body.light-mode #M-logo{
   filter: invert(90);
-}
-
-body.light-mode img:hover{
-  filter: drop-shadow(0 0 5px rgba(15, 15, 15, 0.5));
 }
 
 body.light-mode h1, 
@@ -89,16 +85,31 @@ body.light-mode a {
 }
 
 body.light-mode a:hover{
-  color: #f1356d;
+  color: #fa97fa;
 }
 
-body.light-mode .habilidades__tipo {
+body.light-mode .habilidades__tipo,body.light-mode .herramientas,body.light-mode .proyectos_contenedor_vinculo {
   background-color: #f1f1f1;
   color: #333333;
 }
 
+body.light-mode .certificaciones__curso:hover {
+  background-color: #E57373;
+  transition: 0.3s ease-in-out;
+}
+
+body.light-mode .proyectos_contenedor_vinculo button{
+  background-color: #e6e6e6;
+  color: #333333;
+}
+
+body.light-mode .proyectos_contenedor_vinculo button:hover{
+  background-color: #E57373;
+  color: #1b1b1b;
+}
+
 body.light-mode .habilidades__tipo:hover {
-  background-color: #cc002298;
+  background-color: #E57373;
 }
 
 body.light-mode .seccion p {
@@ -140,6 +151,7 @@ article {
 .seccion {
   width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .seccion p {
@@ -152,10 +164,10 @@ article {
     color: #FF6347; 
   }
   25% {
-    color: #fdea3c; 
+    color: #ecdc4a; 
   }
   50% {
-    color: #FFD700; 
+    color: #bea200; 
   }
   75% {
     color: #ff5416;
